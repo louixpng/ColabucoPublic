@@ -56,7 +56,7 @@ function NavList() {
   );
 }
  
-export default function NavbarSimple() {
+export default function NavbarFiltros() {
   return (
     <Navbar className="bg-yellow h-[72px] ">
       <div className="pl-[582px] flex items-center justify-between text-blue-gray-900">

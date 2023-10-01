@@ -9,7 +9,7 @@ import UserIcon from "C:/Users/luism/AtvFrontColabucoTeste/src/assets/user 2.png
 
 import BagIcon from "C:/Users/luism/AtvFrontColabucoTeste/src/assets/bag 2.png"
 
-export default function NavbarWithSearch() {
+export default function NavbarComBusca() {
   return (
     <Navbar className="border-[3px] border-black flex m-0">
       <div className="pl-[333px] px-[15px] flex">

@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import NavbarWithSearch from './Header.jsx'
-import NavbarSimple from './HeaderFiltros.jsx'
+import NavbarComBusca from './Header.jsx'
+import NavbarFiltros from './HeaderFiltros.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <NavbarWithSearch />
-    <NavbarSimple  />
+    <NavbarComBusca />
+    <NavbarFiltros  />
   </React.StrictMode>,
 )
