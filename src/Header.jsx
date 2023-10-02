@@ -1,13 +1,10 @@
-import {
-  Navbar,
-  Input,
-} from "@material-tailwind/react";
+import { Navbar, Input } from "@material-tailwind/react";
 
-import Logo from "C:/Users/luism/AtvFrontColabucoTeste/src/assets/LogoColabuco.svg"
+import Logo from "/src/assets/LogoColabuco.svg";
 
-import UserIcon from "C:/Users/luism/AtvFrontColabucoTeste/src/assets/user 2.png"
+import UserIcon from "/src/assets/user 2.png";
 
-import BagIcon from "C:/Users/luism/AtvFrontColabucoTeste/src/assets/bag 2.png"
+import BagIcon from "/src/assets/bag 2.png";
 
 export default function NavbarComBusca() {
   return (
@@ -24,7 +21,7 @@ export default function NavbarComBusca() {
             className="font-montserrat_alt_semibold text-[20px] placeholder-primary border-[3px] pl-[26px] rounded-[8px] border-black min-w-[658px] min-h-[49px]"
           />
 
-          <div className = "pl-[132px] flex gap-1 pr-[322px]">
+          <div className="pl-[132px] flex gap-1 pr-[322px]">
             <div className="flex flex-shrink-0 items-center">
               <img className="h-[51px] w-[51px]" src={UserIcon} />
             </div>
